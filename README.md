@@ -1,6 +1,6 @@
 - 👋 Hi, I’m HARI VIKINESH
 - 👀 I’m interested in Mobile Robotics and Automation
-- 🌱 I’m currently pursuing B.E Mechatronics Engineering at Kongu Engineering College, Erode
+- 🌱 I’m completed B.E Mechatronics Engineering at Kongu Engineering College, Erode
 - 📫 You can reach me at any time through gmail harivikinesh@gmail.com
 
 <!---
