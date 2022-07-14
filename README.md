@@ -1,15 +1,8 @@
 ## Hello, I'm Hari Vikinesh👋
 
 I'm Hari completed my under graduation in the Department of Mechatronics Engineering at [Kongu Engineering College](https://kongu.ac.in/), Erode. I was always open to learning something new and challenging to create new boundaries. <img src="https://komarev.com/ghpvc/?username=hari-vickey&style=flat-square&color=green" alt=""/>
-
-<div>
-    <p> I am currently working as a student intern at e-Yantra, IIT Bombay.</p>
-</div>
-<div style="float: right; margin-left 1em;">
-    <img src="https://media.giphy.com/media/fvx95jkua5th3YeThr/giphy.gif" width="300" 
-         height="250" alt=""/>
-</div>
-
+<img alt="programmer gif" width="300" src="https://media.giphy.com/media/fvx95jkua5th3YeThr/giphy.gif" align="right">
+- 🌱 I am currently working as a student intern at e-Yantra, IIT Bombay.
 - :zap: My area of interest is in the field of Mobile Robotics and Automation.
 - 🔭 I am looking forward to working on autonomous vehicles.
 - 👯 I am open to collaborate with others to work on robotics projects. 
