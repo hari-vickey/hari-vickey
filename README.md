@@ -22,7 +22,7 @@ I'm Hari completed my under graduation in the Department of Mechatronics Enginee
 </div>
 
 ### Git Status
-[![Hari's github stats](https://github-readme-stats.vercel.app/api?username=hari-vickey&count_private=true&show_icons=true&theme=radical&hide_rank=false&line_height=24)](https://github.com/anuraghazra/github-readme-stats) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hari-vickey&layout=compact&theme=vision-friendly-dark&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)   
+[![Hari's github stats](https://github-readme-stats.vercel.app/api?username=hari-vickey&count_private=true&show_icons=true&theme=radical&hide_rank=false&line_height=24)](https://github.com/anuraghazra/github-readme-stats) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hari-vickey&layout=compact&theme=vision-friendly-dark&langs_count=8&card_width=250)](https://github.com/anuraghazra/github-readme-stats)   
 
 ##### Connect with me
 
