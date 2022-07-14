@@ -1,7 +1,7 @@
 ## Hello, I'm Hari Vikinesh👋
 
 I'm Hari completed my under graduation in the Department of Mechatronics Engineering at [Kongu Engineering College](https://kongu.ac.in/), Erode. I was always open to learning something new and challenging to create new boundaries. <img src="https://komarev.com/ghpvc/?username=hari-vickey&style=flat-square&color=green" alt=""/>
-<img alt="programmer gif" width="250" height="250" src="https://media.giphy.com/media/fvx95jkua5th3YeThr/giphy.gif" align="right">
+<img alt="programmer gif" width="200" height="200" src="https://media.giphy.com/media/fvx95jkua5th3YeThr/giphy.gif" align="right">
 - 🌱 I am currently working as a student intern at e-Yantra, IIT Bombay.
 - :zap: My area of interest is in the field of Mobile Robotics and Automation.
 - 🔭 I am looking forward to working on autonomous vehicles.
@@ -21,10 +21,7 @@ I'm Hari completed my under graduation in the Department of Mechatronics Enginee
   <img src="https://www.megaleechers.com/storage/SketchUp-Pro-Icon.png" title="SketchUp" alt="sketchup" width="40" height="40"/>
 </div>
 
- 
-
-
-
+### Git Status
 [![Hari's github stats](https://github-readme-stats.vercel.app/api?username=hari-vickey&count_private=true&show_icons=true&theme=radical&hide_rank=false&line_height=24)](https://github.com/anuraghazra/github-readme-stats) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hari-vickey&layout=compact&theme=vision-friendly-dark&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)   
 
 ##### Connect with me
