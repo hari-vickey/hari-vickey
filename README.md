@@ -30,7 +30,7 @@ I'm Hari completed my under graduation in the Department of Mechatronics Enginee
   <a href="https://www.linkedin.com/in/hari-vikinesh/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-  <a href="mailto:harivikinesh@gmail.com">
+  <a href="https://www.gmail.com/">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
   </a>
   <a href="https://www.instagram.com/_hari_vickey_/">
