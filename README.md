@@ -2,7 +2,7 @@
 
 I'm Hari completed my under graduation in the Department of Mechatronics Engineering at [Kongu Engineering College](https://kongu.ac.in/), Erode. I was always open to learning something new and challenging to create new boundaries.
 <img alt="programmer gif" width="400" height="250" src="https://media.giphy.com/media/fvx95jkua5th3YeThr/giphy.gif" align="right">
-- 🌱 I am currently working as a student intern at e-Yantra, IIT Bombay.
+- 🌱 I have worked as a student intern at e-Yantra, IIT Bombay.
 - :zap: My area of interest is in the field of Mobile Robotics and Automation.
 - 🔭 I am looking forward to working on autonomous vehicles.
 - 👯 I am open to collaborate with others to work on robotics projects. 
