@@ -1,11 +1,12 @@
 ## Hello, I'm Hari Vikinesh👋
 
 I have completed my under graduation in the Department of Mechatronics Engineering at [Kongu Engineering College](https://kongu.ac.in/), Erode. I am always open to learning something new and challenging to create new boundaries.
-<img alt="programmer gif" width="400" height="250" src="https://media.giphy.com/media/fvx95jkua5th3YeThr/giphy.gif" align="right">
+<img alt="programmer gif" width="400" height="250" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" align="right">
 - 🌱 I have worked as a student intern at e-Yantra, IIT Bombay.
 - :zap: My area of interest is in the field of Mobile Robotics and Automation.
 - 🔭 I am looking forward to working on autonomous vehicles.
-- 👯 I am open to collaborate with others to work on robotics projects. 
+- 👯 I am open to collaborate with others to work on robotics projects.
+- 🕸️ Visit my personal webpage [here]().
 
 ### :hammer_and_wrench: Language & Tools
 
@@ -23,18 +24,3 @@ I have completed my under graduation in the Department of Mechatronics Engineeri
 
 ### Git Status
 [![Hari's github stats](https://github-readme-stats.vercel.app/api?username=hari-vickey&count_private=true&show_icons=true&theme=radical&hide_rank=false&line_height=24)](https://github.com/anuraghazra/github-readme-stats) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hari-vickey&layout=compact&theme=vision-friendly-dark&langs_count=8&card_width=275)](https://github.com/anuraghazra/github-readme-stats)   
-
-##### Connect with me
-
-<div id="badges" justify="center">
-  <a href="https://www.linkedin.com/in/hari-vikinesh/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="https://www.gmail.com/">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
-  </a>
-  <a href="https://www.instagram.com/_hari_vickey_/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge"/>
-  </a>
-</div>
-
