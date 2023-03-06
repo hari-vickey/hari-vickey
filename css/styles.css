@@ -59,6 +59,22 @@ hr{
     text-decoration: none;
 }
 
+/*For Animations*/
+#engineer{
+    display: inline-block;
+}
+
+#typing-effect{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(150, end) forwards;
+}
+
+@keyframes typing {
+    from { width: 0% }
+    to { width: 100%; }
+}
+
 /*Cloud Positioning*/
 #cloud1{
     position: relative;
@@ -68,9 +84,9 @@ hr{
 
 #cloud2{
     position: absolute;
-    left: 350px;
+    left: 300px;
+    top: 450px;
 }
-
 
 .middle-container{
     background-color: #ECF2FF;
