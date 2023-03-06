@@ -92,7 +92,8 @@ hr{
 .middle-container{
     background-color: #ECF2FF;
     text-align: center;
-    padding: 50px auto auto auto;
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 
 .profile{
