@@ -93,7 +93,6 @@ hr{
     background-color: #ECF2FF;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 25px;
 }
 
 .profile{
@@ -133,6 +132,10 @@ hr{
 .contact-me{
     width: 35%;
     margin: auto;
+}
+
+.get-in-touch{
+    padding: 30px;
 }
 
 .bottom-container{
