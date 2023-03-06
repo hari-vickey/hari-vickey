@@ -1,25 +1,26 @@
 /*Common Style Properties*/
 h2{
     font-size: 2rem;
-    color: #5D9C59;
+    color: #14D40F; /*5D9C59*/
     font-weight: 700;
     font-family: 'bradley hand itc', 'Merriweather', serif;
 }
 
 h3{
-    color: #5D9C59;
+    color: #14D40F; /*5D9C59*/
     font-size: 1.3125em;
     font-family: 'Montserrat', serif;
 }
 
 p{
+    color: #ECF2FF; /*Hide this*/
     font-family: 'Montserrat', serif;
     font-size: 18px;
     line-height: 1.75;
 }
 
 a:hover, :visited{
-    cursor: pointer;
+    color: #ECF2FF;
 }
 
 hr{
@@ -32,20 +33,20 @@ hr{
 
 /* Navigation Bar*/
 .navbar-mysetup{
-    background-color: #B4E4FF;
+    background-color: #20262E; /*B4E4FF*/
     padding: 45px 17.5%;
 }
 
 .nav-link{
-    color: #A86464;
+    color: #fec1ae; /*A86464*/
     font-size: 125%;
     font-family: 'Montserrat', serif;
 }
 
 .top-container{
-    background-color: #B4E4FF;
+    background-color: #20262E; /*B4E4FF*/
     text-align: center;
-    color: #5D9C59;
+    color: #14D40F; /*5D9C59*/
     position: relative;
 }
 
@@ -61,7 +62,7 @@ hr{
 }
 
 .mts-link{
-    color: #5D9C59;
+    color: #14D40F; /*5D9C59*/
     text-decoration: none;
 }
 
@@ -96,7 +97,7 @@ hr{
 }
 
 .middle-container{
-    background-color: #ECF2FF;
+    background-color: #2B4865; /*ECF2FF*/
     text-align: center;
     padding-top: 10px;
 }
@@ -145,14 +146,14 @@ hr{
 }
 
 .bottom-container{
-    background-color: #B3E5BE;
+    background-color: #2E4F4F; /*B3E5BE*/
     text-align: center;
     color: #23893C;
     padding: 20px;
 }
 
 .footer-link{
-    color: #23893C;
+    color: #19D487; /*23893C*/
     text-decoration: none;
     margin: 10px 20px;
     font-size: 18px;
@@ -169,6 +170,11 @@ hr{
 }
 
 .btn:hover {
-    background: #1F8A70;
+    background: #85B863; /*1F8A70*/
     text-decoration: none;
+}
+
+#cp-right{
+    margin-top: 16px;
+    margin-bottom: 0px;
 }
