@@ -1,15 +1,9 @@
-
 /*Common Style Properties*/
-body{
-    margin: 0px;
-}
-
 h2{
     font-size: 2rem;
     color: #5D9C59;
     font-weight: 700;
     font-family: 'bradley hand itc', 'Merriweather', serif;
-    margin: 5px;
 }
 
 h3{
@@ -36,18 +30,29 @@ hr{
     width: 4%;
 }
 
+/* Navigation Bar*/
+.navbar-mysetup{
+    background-color: #B4E4FF;
+    padding: 45px 17.5%;
+}
+
+.nav-link{
+    color: #A86464;
+    font-size: 125%;
+    font-family: 'Montserrat', serif;
+}
+
 .top-container{
     background-color: #B4E4FF;
     text-align: center;
     color: #5D9C59;
     position: relative;
-    padding-top: 150px;
 }
 
 /*Font Stylings*/
 .headings{
     font-family: 'tempus sans itc', 'segoe script', 'sacramento';
-    font-size: 500%;
+    font-size: 425%;
     margin:50px auto 0px auto;
 }
 
@@ -63,6 +68,7 @@ hr{
 /*For Animations*/
 #engineer{
     display: inline-block;
+    padding: 5px;
 }
 
 #typing-effect{
@@ -86,7 +92,7 @@ hr{
 #cloud2{
     position: absolute;
     left: 300px;
-    top: 450px;
+    top: 275px;
 }
 
 .middle-container{
@@ -101,7 +107,7 @@ hr{
 }
 #profile-pic{
     border-radius: 100%;
-    margin-top: 25px;
+    margin: 20px auto 20px auto;
     width: 256px;
     height: 256px;
 }
