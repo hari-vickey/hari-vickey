@@ -1,49 +1,50 @@
 /*Common Style Properties*/
+body{
+    font-family: 'Montserrat', serif;
+    font-size: 18px;
+}
 h2{
     font-size: 2rem;
     color: #14D40F; /*5D9C59*/
     font-weight: 700;
-    font-family: 'bradley hand itc', 'Merriweather', serif;
+    font-family: 'bradley hand itc', 'Nanum Pen Script', serif;
 }
 
 h3{
     color: #14D40F; /*5D9C59*/
     font-size: 1.3125em;
-    font-family: 'Montserrat', serif;
 }
 
 p{
     color: #ECF2FF; /*Hide this*/
-    font-family: 'Montserrat', serif;
-    font-size: 18px;
     line-height: 1.75;
 }
 
-a:hover, :visited{
+a, a:hover{
     color: #ECF2FF;
+    text-decoration: none;
 }
 
 hr{
     border-style: dotted none none none;
     border-width: 6px;
     border-color: #A86464;
-    margin: 40px auto 40px auto;
+    margin: auto;
     width: 4%;
 }
 
 /* Navigation Bar*/
 .navbar-mysetup{
-    padding: 45px 17.5%;
+    padding: 45px 12.5%;
 }
 
 .nav-link{
     color: #fec1ae; /*A86464*/
     font-size: 125%;
-    font-family: 'Montserrat', serif;
 }
 
 #first-page{
-    background-color: #20262E; /*B4E4FF*/
+    background-color: #23272a; /*B4E4FF*/
     text-align: center;
     color: #14D40F; /*5D9C59*/
     position: relative;
@@ -58,11 +59,11 @@ hr{
 
 .sub-headings{
     font-size: 2.25rem;
+    padding: 20px;
 }
 
-.mts-link{
+.mts-link {
     color: #14D40F; /*5D9C59*/
-    text-decoration: none;
 }
 
 /*For Animations*/
@@ -98,11 +99,10 @@ hr{
 .middle-container{
     background-color: #2B4865; /*ECF2FF*/
     text-align: center;
-    padding-top: 10px;
 }
 
 .profile{
-    width: 35%;
+    padding: 10px;
     margin: auto;
 }
 
@@ -112,14 +112,20 @@ hr{
 }
 
 .skills{
-    margin: 40px auto 40px auto;
+/*    margin: auto;*/
+    padding: 3% 20%;
 }
 
+
 .skill-row{
+    padding: 20px;
+}
+
+.skill-text{
     text-align: justify;
-    width:50%;
-    margin: 40px auto 50px auto;
-    padding-bottom: 25px;
+    padding:10px;
+    /*width:50%;
+    margin: 40px auto 50px auto;*/
 }
 
 .mechatron-img{
@@ -135,41 +141,32 @@ hr{
 }
 
 .contact-me{
-    width: 35%;
     margin: auto;
+    padding: 10px;
 }
 
 .get-in-touch{
-    padding: 30px;
+    padding: 10px 0px;
 }
 
 .bottom-container{
     background-color: #2E4F4F; /*B3E5BE*/
     text-align: center;
-    color: #23893C;
     padding: 20px;
 }
 
 .footer-link{
     color: #19D487; /*23893C*/
-    text-decoration: none;
     margin: 10px 20px;
-    font-size: 18px;
 }
 
 .btn {
-    border-radius: 5px;
-    font-family: Montserrat;
     color: #ECF2FF;
-    font-size: 18px;
     background: #5D9C00;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
 }
 
 .btn:hover {
     background: #85B863; /*1F8A70*/
-    text-decoration: none;
 }
 
 #cp-right{
