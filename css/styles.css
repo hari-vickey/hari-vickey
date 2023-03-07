@@ -1,69 +1,78 @@
 /*Common Style Properties*/
 body{
     font-family: 'Montserrat', serif;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
+
+h1, h2, h3, #mts-link{
+    color: #14D40F; /*5D9C59*/
+}
+
 h2{
     font-size: 2rem;
-    color: #14D40F; /*5D9C59*/
     font-weight: 700;
     font-family: 'bradley hand itc', 'Nanum Pen Script', serif;
 }
 
 h3{
-    color: #14D40F; /*5D9C59*/
     font-size: 1.3125em;
 }
 
-p{
-    color: #ECF2FF; /*Hide this*/
-    line-height: 1.75;
-}
-
-a, a:hover{
+p, a, .btn, a:hover, .nav-link:hover{
     color: #ECF2FF;
+    line-height: 1.75;
     text-decoration: none;
 }
 
 hr{
-    border-style: dotted none none none;
+    border-style: dotted none none;
     border-width: 6px;
     border-color: #A86464;
     margin: auto;
     width: 4%;
 }
 
-/* Navigation Bar*/
+#first-section, #second-section, #contact-me{
+    margin: auto;
+    text-align: center;
+}
+
+/*Navigation Bar*/
 .navbar-mysetup{
     padding: 45px 12.5%;
 }
 
 .nav-link{
-    color: #fec1ae; /*A86464*/
-    font-size: 125%;
+    color: #745739; /*A86464*/
+    font-size: 1.5rem;
 }
 
-#first-page{
+.nav-item{
+    padding: 10px;
+}
+
+#first-section{
     background-color: #23272a; /*B4E4FF*/
-    text-align: center;
-    color: #14D40F; /*5D9C59*/
-    position: relative;
+}
+
+#second-section{
+    background-color: #2B4865; /*ECF2FF*/
+}
+
+#third-section{
+    background-color: #2E4F4F; /*B3E5BE*/
 }
 
 /*Font Stylings*/
-.headings{
+#my-name{
     font-family: 'tempus sans itc', 'segoe script', 'sacramento';
-    font-size: 425%;
-    margin:50px auto 0px auto;
+    font-size: 4.25em;
+    margin:50px auto 0px;
 }
 
 .sub-headings{
     font-size: 2.25rem;
     padding: 20px;
-}
-
-.mts-link {
-    color: #14D40F; /*5D9C59*/
 }
 
 /*For Animations*/
@@ -96,36 +105,24 @@ hr{
     top: 475px;
 }
 
-.middle-container{
-    background-color: #2B4865; /*ECF2FF*/
-    text-align: center;
-}
-
 .profile{
-    padding: 10px;
     margin: auto;
+    max-width: 525px;
 }
 
 #profile-pic{
     border-radius: 100%;
-    margin: 20px auto 20px auto;
+    margin: 20px auto;
 }
 
 .skills{
-/*    margin: auto;*/
-    padding: 3% 20%;
-}
-
-
-.skill-row{
-    padding: 20px;
+    margin: auto;
+    max-width: 850px;
 }
 
 .skill-text{
     text-align: justify;
     padding:10px;
-    /*width:50%;
-    margin: 40px auto 50px auto;*/
 }
 
 .mechatron-img{
@@ -140,18 +137,20 @@ hr{
     margin-left: 30px;
 }
 
-.contact-me{
-    margin: auto;
+#contact-me{
     padding: 10px;
+    max-width: 525px;
 }
 
 .get-in-touch{
     padding: 10px 0px;
 }
 
-.bottom-container{
-    background-color: #2E4F4F; /*B3E5BE*/
-    text-align: center;
+.icon{
+    padding: 5px;
+}
+
+.footer-part{
     padding: 20px;
 }
 
@@ -161,7 +160,6 @@ hr{
 }
 
 .btn {
-    color: #ECF2FF;
     background: #5D9C00;
 }
 
@@ -169,7 +167,36 @@ hr{
     background: #85B863; /*1F8A70*/
 }
 
-#cp-right{
-    margin-top: 16px;
-    margin-bottom: 0px;
+@media (max-width: 600px){
+    #my-name{
+        font-size: 3.5rem;
+    }
+    .navbar-mysetup{
+        padding: 20px 7.5%;
+    }
+
+    .nav-link{
+        font-size: 1rem;
+    }
+
+    #mountain-img{
+        width: 100%;
+    }
+    #cloud1{
+        position: absolute;
+        left: 5%;
+        top: 400px;
+    }
+
+    #cloud2{
+        position: absolute;
+        left: 65%;
+        top: 450px;
+    }
+}
+
+@media (max-width: 1000px){
+    .skill-text{
+        text-align: center;
+    }
 }
