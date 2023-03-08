@@ -217,6 +217,7 @@ hr{
     }
     p{
         font-size: 1rem;
+        text-align: justify;
     }
     #gear-img{
         width: 35%;
