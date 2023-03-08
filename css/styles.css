@@ -10,15 +10,14 @@ h1, h2, h3, a:hover, #mts-link{
 
 h2{
     font-size: 2rem;
-    font-weight: 700;
-    font-family: 'bradley hand itc', 'Nanum Pen Script', serif;
+    font-family: 'Gabriela', serif;
 }
 
 h3{
     font-size: 1.3125em;
 }
 
-p, a, .btn{
+p, a, .btn, #mts-link:hover{
     color: #ECF2FF;
     line-height: 1.75;
     text-decoration: none;
@@ -26,10 +25,10 @@ p, a, .btn{
 
 hr{
     border-style: dotted none none;
-    border-width: 6px;
-    border-color: #A86464;
+    border-width: 8px;
+    border-color: #ECF2FF;
     margin: auto;
-    width: 4%;
+    width: 5%;
 }
 
 #first-section, #second-section, #contact-me{
@@ -38,12 +37,22 @@ hr{
 }
 
 /*Navigation Bar*/
+.icon-img{
+    background-color: #fec1ae;
+    border-radius: 100%;
+}
+
+.icon-img:hover{
+    background-color: #fff;
+}
+
 .navbar-mysetup{
     padding: 45px 12.5%;
 }
 
 .nav-link{
     color: #fff;
+    font-size: 1.125em;
 }
 
 .nav-link:hover{
@@ -57,30 +66,31 @@ hr{
 }
 
 #first-section{
-    background-color: #23272a; /*B4E4FF*/
+    background-image: url("background-img.jpg");
+    background-color: #000; /*B4E4FF*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: auto;
 }
 
-#second-section{
-    background-color: #2B4865; /*ECF2FF*/
-}
-
-#third-section{
-    background-color: #2E4F4F; /*B3E5BE*/
+.top-container{
+    padding: 10px;
 }
 
 /*Font Stylings*/
 #my-name{
-    font-family: 'tempus sans itc', 'segoe script', 'sacramento';
-    font-size: 4.25em;
-    margin:50px auto 0px;
+    font-family: 'Tangerine';
+    font-size: 5em;
+    margin:75px auto 0px;
 }
 
 .sub-headings{
-    font-size: 2.25rem;
     padding: 20px;
 }
 
-/*For Animations*/
+/*Type Writer Animation*/
 #engineer{
     display: inline-block;
     padding: 5px;
@@ -97,28 +107,40 @@ hr{
     to { width: 100%; }
 }
 
-/*Cloud Positioning*/
-#cloud1{
-    position: absolute;
-    left: 70%;
-    top: 535px;
+/*Gear Wheel Animation*/
+.rotate {
+  animation: rotation 8s;
 }
 
-#cloud2{
-    position: absolute;
-    left: 23%;
-    top: 475px;
+.linear {
+  animation-timing-function: linear;
+}
+
+.infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+#second-section{
+    background-color: #000; /*ECF2FF*/
+}
+
+#third-section{
+    background-color: #131416; /*B3E5BE*/
 }
 
 .profile{
     margin: auto;
     max-width: 525px;
     padding: 0px 15px;
-}
-
-#profile-pic{
-    border-radius: 100%;
-    margin: 20px auto;
 }
 
 .skills{
@@ -171,35 +193,28 @@ hr{
 
 @media (max-width: 600px){
     #my-name{
-        font-size: 3.5rem;
+        font-size: 4.25rem;
+        margin:25px auto 0px;
     }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 750px){
     .navbar-mysetup{
-        padding: 20px 7.5%;
+        padding: 20px 3.5%;
     }
 
     .nav-link{
-        font-size: 1rem;
+        font-size: 0.925rem;
     }
 
     .nav-item{
         padding: 8px;
-    }
-
-    #mountain-img{
-        width: 100%;
-    }
-    #cloud1{
-        position: absolute;
-        left: 25%;
-        top: 400px;
-        width: 15%;
-    }
-
-    #cloud2{
-        position: absolute;
-        left: 65%;
-        top: 450px;
-        width: 20%;
     }
 }
 
