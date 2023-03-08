@@ -23,19 +23,21 @@ p, a, .btn, #mts-link:hover{
     text-decoration: none;
 }
 
+hr, .profile, .about-me, .skills, .contact-me{
+    margin: auto;
+}
+
 hr{
     border-style: dotted none none;
     border-width: 6px;
     border-color: #ECF2FF;
-    margin: auto;
     width: 5%;
     padding: 5px;
 }
 
-#first-section, #second-section, #contact-me{
+#first-section, #second-section, #third-section{
     text-align: center;
     padding: 0px 15px;
-    margin: auto;
 }
 
 /*Navigation Bar*/
@@ -76,12 +78,20 @@ hr{
     height: auto;
 }
 
+#second-section{
+    background-color: #000; /*ECF2FF*/
+}
+
+#third-section{
+    background-color: #131416; /*B3E5BE*/
+}
+
 .top-container{
     padding: 10px;
 }
 
 /*Font Stylings*/
-#my-name{
+.my-name{
     font-family: 'Tangerine';
     font-size: 5em;
     margin:75px auto 0px;
@@ -92,17 +102,16 @@ hr{
 }
 
 /*Type Writer Animation*/
-#engineer{
+.engineer{
     display: inline-block;
     padding: 5px;
 }
 
-#profile{
-    margin: auto;
+.profile{
     max-width: 525px;
 }
 
-#typing-effect{
+.typing-effect{
     overflow: hidden;
     white-space: nowrap;
     animation: typing 2s steps(150, end) forwards;
@@ -127,29 +136,15 @@ hr{
 }
 
 @keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
 }
 
-#second-section{
-    background-color: #000; /*ECF2FF*/
-}
-
-#third-section{
-    background-color: #131416; /*B3E5BE*/
-}
-
-#about-me{
-    margin: auto;
+.about-me{
     max-width: 800px;
 }
 
-#skills{
-    margin: auto;
+.skills{
     padding: 0px 15px;
     max-width: 850px;
 }
@@ -159,7 +154,7 @@ hr{
     padding:10px 0px;
 }
 
-#contact-me{
+.contact-me{
     padding: 0px 12px 30px;
     max-width: 525px;
 }
@@ -190,25 +185,7 @@ hr{
     }
 }
 
-@media (max-width: 750px){
-    .navbar-mysetup{
-        padding: 20px 5%;
-    }
-
-    .nav-link{
-        font-size: 1rem;
-    }
-
-    .nav-item{
-        padding: 8px;
-    }
-}
-
 @media (max-width: 550px){
-    #my-name{
-        font-size: 3.5rem;
-        margin:20px auto 0px;
-    }
     h2{
         font-size: 1.25rem;
     }
@@ -219,7 +196,21 @@ hr{
         font-size: 1rem;
         text-align: justify;
     }
-    #gear-img{
+    .my-name{
+        font-size: 3.5rem;
+        margin:20px auto 0px;
+    }
+    .navbar-mysetup{
+        padding: 20px 5%;
+    }
+
+    .nav-item{
+        padding: 8px;
+    }
+    .copy-right{
+        text-align: center;
+    }
+    .gear-img{
         width: 35%;
     }
     .nav-link{
