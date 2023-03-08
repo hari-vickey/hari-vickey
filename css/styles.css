@@ -73,7 +73,6 @@ hr{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     height: auto;
 }
 
@@ -205,7 +204,7 @@ hr{
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 550px){
     #my-name{
         font-size: 3.5rem;
         margin:20px auto 0px;
@@ -217,7 +216,7 @@ hr{
         font-size: 1.05rem;
     }
     p{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     #gear-img{
         width: 35%;
