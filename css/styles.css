@@ -191,9 +191,9 @@ hr{
     background: #85B863; /*1F8A70*/
 }
 
-@media (max-width: 600px){
+@media (max-width: 550px){
     #my-name{
-        font-size: 4.25rem;
+        font-size: 4rem;
         margin:25px auto 0px;
     }
     h2{
@@ -202,15 +202,18 @@ hr{
     h3{
         font-size: 1.25rem;
     }
+    p{
+        font-size: 0.8rem;
+    }
 }
 
 @media (max-width: 750px){
     .navbar-mysetup{
-        padding: 20px 3.5%;
+        padding: 20px 5%;
     }
 
     .nav-link{
-        font-size: 0.925rem;
+        font-size: 1rem;
     }
 
     .nav-item{
