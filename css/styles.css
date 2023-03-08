@@ -190,14 +190,16 @@ hr{
     }
     #cloud1{
         position: absolute;
-        left: 5%;
+        left: 25%;
         top: 400px;
+        width: 15%;
     }
 
     #cloud2{
         position: absolute;
         left: 65%;
         top: 450px;
+        width: 20%;
     }
 }
 
