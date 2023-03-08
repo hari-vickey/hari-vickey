@@ -4,7 +4,7 @@ body{
     font-size: 1.125rem;
 }
 
-h1, h2, h3, a:hover, #mts-link{
+h1, h2, h3, a:hover, .mts-link{
     color: #14D40F; /*5D9C59*/
 }
 
@@ -17,7 +17,7 @@ h3{
     font-size: 1.3125em;
 }
 
-p, a, .btn, #mts-link:hover{
+p, a, .btn, .mts-link:hover{
     color: #ECF2FF;
     line-height: 1.75;
     text-decoration: none;
@@ -141,6 +141,7 @@ hr{
 }
 
 .about-me{
+    padding: 0px 15px;
     max-width: 800px;
 }
 
