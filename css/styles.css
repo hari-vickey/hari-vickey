@@ -167,7 +167,7 @@ hr{
 }
 
 #contact-me{
-    padding: 0px 0px 30px;
+    padding: 0px 12px 30px;
     max-width: 525px;
 }
 
@@ -191,19 +191,9 @@ hr{
     background: #85B863; /*1F8A70*/
 }
 
-@media (max-width: 550px){
-    #my-name{
-        font-size: 4rem;
-        margin:25px auto 0px;
-    }
-    h2{
-        font-size: 1.5rem;
-    }
-    h3{
-        font-size: 1.25rem;
-    }
-    p{
-        font-size: 0.8rem;
+@media (max-width: 1000px){
+    .skill-text{
+        text-align: center;
     }
 }
 
@@ -221,8 +211,24 @@ hr{
     }
 }
 
-@media (max-width: 1000px){
-    .skill-text{
-        text-align: center;
+@media (max-width: 450px){
+    #my-name{
+        font-size: 3.5rem;
+        margin:20px auto 0px;
+    }
+    h2{
+        font-size: 1.25rem;
+    }
+    h3{
+        font-size: 1.05rem;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+    #gear-img{
+        width: 35%;
+    }
+    .nav-link{
+        font-size: 0.8rem;
     }
 }
