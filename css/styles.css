@@ -180,6 +180,13 @@ hr{
     background: #85B863; /*1F8A70*/
 }
 
+/*The Path Page Specific Customizations*/
+.path{
+    padding: 15px;
+    text-align: justify;
+}
+
+/*Media Queries*/
 @media (max-width: 1000px){
     .skill-text{
         text-align: center;
