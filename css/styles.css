@@ -5,12 +5,13 @@ body{
 }
 
 h1, h2, h3, a:hover, .mts-link{
-    color: #14D40F; /*5D9C59*/
+    color: #14d40f; /*5D9C59*/
 }
 
 h2{
     font-size: 2rem;
     font-family: 'Gabriela', serif;
+    text-align: center;
 }
 
 h3{
@@ -18,21 +19,21 @@ h3{
 }
 
 p, a, .btn, .mts-link:hover{
-    color: #ECF2FF;
+    color: #ecf2ff;
     line-height: 1.75;
     text-decoration: none;
 }
 
-hr, .profile, .about-me, .skills, .contact-me{
+hr, .profile, .about-me, .skills, .contact-me, .container, .content-img{
     margin: auto;
 }
 
 hr{
     border-style: dotted none none;
     border-width: 6px;
-    border-color: #ECF2FF;
+    border-color: #ecf2ff;
     width: 5%;
-    padding: 5px;
+    margin: 25px auto 10px;
 }
 
 #first-section, #second-section, #third-section{
@@ -71,7 +72,7 @@ hr{
 
 #first-section{
     background-image: url("background-img.jpg");
-    background-color: #000; /*B4E4FF*/
+    background-color: #131416; /*B4E4FF*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -153,6 +154,7 @@ hr{
 .skill-text{
     text-align: justify;
     padding:10px 0px;
+/*    padding-top: 10px;*/
 }
 
 .contact-me{
@@ -173,17 +175,11 @@ hr{
 }
 
 .btn {
-    background: #5D9C00;
+    background: #5d9c00;
 }
 
 .btn:hover {
-    background: #85B863; /*1F8A70*/
-}
-
-/*The Path Page Specific Customizations*/
-.path{
-    padding: 15px;
-    text-align: justify;
+    background: #85b863; /*1F8A70*/
 }
 
 /*Media Queries*/
@@ -211,7 +207,6 @@ hr{
     .navbar-mysetup{
         padding: 20px 5%;
     }
-
     .nav-item{
         padding: 8px;
     }
@@ -224,4 +219,78 @@ hr{
     .nav-link{
         font-size: 0.8rem;
     }
+    .content-img{
+        width: 100px;
+    }
+}
+
+/*The Path Page Specific Customizations*/
+
+/*Timeline Stylings*/
+.timeline{
+    margin: auto;
+    max-width: 1200px;
+}
+
+/*Create a Vertical Line*/
+.ruler{
+    position: relative;
+}
+
+/*Vertical Line Positioning*/
+.ruler:before{
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: whitesmoke;
+    top: 0px;
+    bottom: 0px;
+    left: -6px;
+}
+
+.container{
+    padding: 10px 0;
+}
+
+.content{
+    text-align: justify;
+}
+
+.img-box{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.content-img{
+    background-color: #b4e4ff;
+    border-radius: 100%;
+}
+
+.time-box{
+    background-color: #f5ae19;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 6px;
+    position: relative;
+}
+
+.year-box{
+    background-image: linear-gradient(45deg, #9164ff, #8bfff4);
+    border-radius: 0px 10px;
+    position: relative;
+    right: 25px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.year{
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    color: black;
+}
+
+.time{
+    color: #000;
+    padding: 5px 10px;
 }
