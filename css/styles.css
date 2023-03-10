@@ -4,7 +4,7 @@ body{
     font-size: 1.125rem;
 }
 
-h1, h2, h3, a:hover, .mts-link{
+h1, h2, h3, a:hover, .my-link{
     color: #14d40f; /*5D9C59*/
 }
 
@@ -18,10 +18,15 @@ h3{
     font-size: 1.3125em;
 }
 
-p, a, .btn, .mts-link:hover{
+p, a, .btn, .my-link:hover{
     color: #ecf2ff;
     line-height: 1.75;
     text-decoration: none;
+}
+
+span{
+/*    font-weight: bold;*/
+    color: #9085fd;
 }
 
 hr, .profile, .about-me, .skills, .contact-me, .container, .content-img{
@@ -232,30 +237,24 @@ hr{
     max-width: 1200px;
 }
 
-/*Create a Vertical Line*/
+/*Create a Border Vertical Line*/
 .ruler{
     position: relative;
+    margin-top: 25px;
+    border-left: solid whitesmoke 7px;
 }
 
-/*Vertical Line Positioning*/
-.ruler:before{
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: whitesmoke;
-    top: 0px;
-    bottom: 0px;
-    left: -6px;
-}
-
+/*Row Container*/
 .container{
     padding: 10px 0;
 }
 
+/*Content Container*/
 .content{
     text-align: justify;
 }
 
+/* Image Handling*/
 .img-box{
     padding: 12px;
     display: flex;
@@ -267,14 +266,7 @@ hr{
     border-radius: 100%;
 }
 
-.time-box{
-    background-color: #f5ae19;
-    width: -moz-fit-content;
-    width: fit-content;
-    border-radius: 6px;
-    position: relative;
-}
-
+/* Content Containers*/
 .year-box{
     background-image: linear-gradient(45deg, #9164ff, #8bfff4);
     border-radius: 0px 10px;
@@ -284,13 +276,34 @@ hr{
     width: fit-content;
 }
 
+.time-box{
+    background-color: #fee7e7;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 6px;
+    position: relative;
+}
+
+.status-box{
+    background-color: #fee7e7;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+.status-box:before{
+
+}
+
+/*Text Formatting*/
 .year{
     font-size: 1.5rem;
     padding: 10px 30px;
     color: black;
 }
 
-.time{
+.time, .status{
     color: #000;
     padding: 5px 10px;
+    font-family: 'Gabriela';
 }
