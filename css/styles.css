@@ -1,122 +1,122 @@
 /*Common Style Properties*/
 body{
-    font-size: 1.125rem;
+  font-size: 1.125rem;
 }
 
 img{
-    margin: auto;
+  margin: auto;
 }
 
 div{
-    margin: 0px auto;
-    font-family: 'Gabriela';
-    color: #000000;
+  margin: 0px auto;
+  font-family: 'Gabriela';
+  color: #000000;
 }
 
 h1, h2, h3, a:hover, .my-link{
-    color: #14D40F;
+  color: #14D40F;
 }
 
 h2{
-    font-size: 2rem;
-    font-family: 'Gabriela', serif;
-    text-align: center;
+  font-size: 2rem;
+  font-family: 'Gabriela', serif;
+  text-align: center;
 }
 
 h3{
-    font-size: 1.3125em;
+  font-size: 1.3125em;
 }
 
 p, a, .btn, .my-link:hover{
-    font-family: 'Montserrat', serif;
-    color: #ECF2FF;
-    line-height: 1.75;
-    text-decoration: none;
+  font-family: 'Montserrat', serif;
+  color: #ECF2FF;
+  line-height: 1.75;
+  text-decoration: none;
 }
 
 span{
-    color: #9085FD;
+  color: #9085FD;
 }
 
 #first-section, #second-section, #third-section{
-    background-color: #131416;
-    text-align: center;
+  background-color: #131416;
+  text-align: center;
 }
 
 .icon-img{
-    background-color: #FEC1AE;
-    border-radius: 100%;
+  background-color: #FEC1AE;
+  border-radius: 100%;
 }
 
 /*Navigation Bar*/
 .nav-link:hover, .icon-img:hover{
-    background-color: #ECF2FF;
+  background-color: #ECF2FF;
 }
 
 .navbar-mysetup{
-    padding: 45px 12.5%;
+  padding: 45px 12.5%;
 }
 
 .nav-link{
-    color: #ECF2FF;
-    font-size: 1.125em;
+  color: #ECF2FF;
+  font-size: 1.125em;
 }
 
 .nav-link:hover{
-    color: #000000;
-    border-radius: 5px;
+  color: #000000;
+  border-radius: 5px;
 }
 
 .nav-item{
-    padding: 10px 20px;
+  padding: 10px 20px;
 }
 
 #first-section{
-    background-image: url("background-img.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
+  background-image: url("background-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
 }
 
 #second-section{
-    background-color: #000000;
+  background-color: #000000;
 }
 
 .short-bio{
-    padding: 12px;
+  padding: 12px;
 }
 
 /*Font Stylings*/
 .my-name{
-    font-family: 'Tangerine';
-    font-size: 5em;
-    margin: 75px auto 0px;
+  font-family: 'Tangerine';
+  font-size: 5em;
+  margin: 75px auto 0px;
 }
 
 .sub-headings{
-    padding: 20px 12px;
+  padding: 20px 12px;
 }
 
 /*Type Writer Animation*/
 .engineer{
-    display: inline-block;
-    padding: 5px;
+  display: inline-block;
+  padding: 5px;
 }
 
 .profile{
-    max-width: 525px;
+  max-width: 525px;
 }
 
 .typing-effect{
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typing 2s steps(150, end) forwards;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s steps(150, end) forwards;
 }
 
 @keyframes typing {
-    from { width: 0% }
-    to { width: 100%; }
+  from { width: 0% }
+  to { width: 100%; }
 }
 
 /*Gear Wheel Animation*/
@@ -133,204 +133,204 @@ span{
 }
 
 @keyframes rotation {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(359deg);}
+  from {transform: rotate(0deg);}
+  to {transform: rotate(359deg);}
 }
 
 .about-me{
-    padding: 0px 12px;
-    max-width: 800px;
+  padding: 0px 12px;
+  max-width: 800px;
 }
 
 /*Horizontal Line*/
 .line{
-    border-top: dotted #ddf7e3;
-    border-width: 6px;
-    width: 5%;
-    margin: 25px auto 10px;
+  border-top: dotted #ddf7e3;
+  border-width: 6px;
+  width: 5%;
+  margin: 25px auto 10px;
 }
 
 .skills{
-    padding: 0px 12px;
-    max-width: 850px;
+  padding: 0px 12px;
+  max-width: 850px;
 }
 
 .row{
-    padding: 10px 0px;
+  padding: 10px 0px;
 }
 
 .skill-text{
-    text-align: justify;
+  text-align: justify;
 }
 
 /*Centering the Rows and Images*/
 .fix{
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .year-box, .time-box, .status-box, .skill-img-box, .img-box{
-    width: -moz-fit-content;
-    width: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .contact-me{
-    padding: 0px 12px 30px;
-    max-width: 525px;
+  padding: 0px 12px 30px;
+  max-width: 525px;
 }
 
 .icon{
-    padding: 5px;
+  padding: 5px;
 }
 
 .footer-part{
-    padding: 20px;
-    max-width: 250px;
+  padding: 20px;
+  max-width: 250px;
 }
 
 .btn {
-    background: #5D9C00;
+  background: #5D9C00;
 }
 
 .btn:hover {
-    background: #85B863;
+  background: #85B863;
 }
 
 /*The Path Page Specific Customizations*/
 /*Timeline Stylings*/
 .timeline, .fix{
-    max-width: 1100px;
+  max-width: 1100px;
 }
 
 .timeline{
-    padding: 0px 12px;
+  padding: 0px 12px;
 }
 
 .fix{
-    margin: 12px 0px;
+  margin: 12px 0px;
 }
 
 /*Create a Border Vertical Line*/
 .ruler, .so-on{
-    border-left: solid #B4E4FF 7px;
-    position: relative;
-    left: 10px;
+  border-left: solid #B4E4FF 7px;
+  position: relative;
+  left: 10px;
 }
 
 /*Creating a Connector line between divs*/
 .connector{
-    border-top: solid #B4E4FF 7px;
-    width: 20px;
+  border-top: solid #B4E4FF 7px;
+  width: 20px;
 }
 
 /*Creating dots*/
 .so-on{
-    border-left: dotted #B4E4FF;
-    border-width: 7px;
-    margin-top: 15px;
-    height: 50px;
+  border-left: dotted #B4E4FF;
+  border-width: 7px;
+  margin-top: 15px;
+  height: 50px;
 }
 
 /*Content Container*/
 .content{
-    text-align: justify;
-    display: flex;
-    align-items: center;
+  text-align: justify;
+  display: flex;
+  align-items: center;
 }
 
 /*Image Formatting*/
 .content-img{
-    margin: 7px 0px;
-    border-radius: 100%;
-    background-color: #B4E4FF;
+  margin: 7px 0px;
+  border-radius: 100%;
+  background-color: #B4E4FF;
 }
 
 /*Timeline Containers*/
 .year-box{
-    background-image: linear-gradient(45deg, #9164ff, #8bfff4);
-    font-size: 1.5rem;
-    border-radius: 0px 10px;
-    position: relative;
-    right: 35px;
-    margin: 0px 15px;
-    padding: 10px 25px;
+  background-image: linear-gradient(45deg, #9164ff, #8bfff4);
+  font-size: 1.5rem;
+  border-radius: 0px 10px;
+  position: relative;
+  right: 35px;
+  margin: 0px 15px;
+  padding: 10px 25px;
 }
 
 .time-box, .status-box{
-    font-size: 1.3125em;
-    border-radius: 6px;
-    padding: 7px 12px;
+  font-size: 1.3125em;
+  border-radius: 6px;
+  padding: 7px 12px;
 }
 
 .time-box{
-    background-color: #FEE7E7;
+  background-color: #FEE7E7;
 }
 
 .status-box{
-    background-color: #03C988;
+  background-color: #03C988;
 }
 
 .inactive{
-    background-color: #FFEBB4;
+  background-color: #FFEBB4;
 }
 
 /*Positioning*/
 .connector, .time-box, .status-box{
-    margin: 0px;
+  margin: 0px;
 }
 
 /*Media Queries*/
 @media (max-width: 750px){
-    h2, .year-box{
-        font-size: 1.25rem;
-    }
-    h3, .time-box, .status-box{
-        font-size: 1.05rem;
-    }
-    p{
-        font-size: 1rem;
-    }
-    .navbar-mysetup{
-        padding: 20px 5%;
-    }
-    .nav-item{
-        padding: 8px;
-    }
-    .nav-link{
-        font-size: 0.95rem;
-    }
+  h2, .year-box{
+    font-size: 1.25rem;
+  }
+  h3, .time-box, .status-box{
+    font-size: 1.05rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+  .navbar-mysetup{
+    padding: 20px 5%;
+  }
+  .nav-item{
+    padding: 8px;
+  }
+  .nav-link{
+    font-size: 0.95rem;
+  }
 }
 
 @media (max-width: 575px){
-    .skill-img-box{
-        width: 100%;
-    }
-    .skill-text{
-        text-align: center;
-    }
+  .skill-img-box{
+    width: 100%;
+  }
+  .skill-text{
+    text-align: center;
+  }
 }
 
 @media (max-width: 500px){
-    p{
-        text-align: justify;
-    }
-    .my-name{
-        font-size: 3.5rem;
-        margin:20px auto 0px;
-    }
-    .gear-img{
-        width: 35%;
-    }
-    .img-box{
-        width: 100%;
-    }
-    .content-img{
-        width: 100px;
-    }
-    .connector{
-        width: 10px;
-    }
-    .copyright{
-        text-align: center;
-    }
+  p{
+    text-align: justify;
+  }
+  .my-name{
+    font-size: 3.5rem;
+    margin:20px auto 0px;
+  }
+  .gear-img{
+    width: 35%;
+  }
+  .img-box{
+    width: 100%;
+  }
+  .content-img{
+    width: 100px;
+  }
+  .connector{
+    width: 10px;
+  }
+  .copyright{
+    text-align: center;
+  }
 }
