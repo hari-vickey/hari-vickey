@@ -200,7 +200,14 @@ span{
 /*Timeline Stylings*/
 .timeline, .fix{
     max-width: 1100px;
-    padding: 12px;
+}
+
+.timeline{
+    padding: 0px 12px;
+}
+
+.fix{
+    margin: 12px 0px;
 }
 
 /*Create a Border Vertical Line*/
@@ -220,6 +227,7 @@ span{
 .so-on{
     border-left: dotted #B4E4FF;
     border-width: 7px;
+    margin-top: 15px;
     height: 50px;
 }
 
