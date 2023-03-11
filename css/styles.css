@@ -1,11 +1,20 @@
 /*Common Style Properties*/
 body{
-    font-family: 'Montserrat', serif;
     font-size: 1.125rem;
 }
 
+img{
+    margin: auto;
+}
+
+div{
+    margin: 0px auto;
+    font-family: 'Gabriela';
+    color: #000000;
+}
+
 h1, h2, h3, a:hover, .my-link{
-    color: #14d40f;
+    color: #14D40F;
 }
 
 h2{
@@ -19,34 +28,29 @@ h3{
 }
 
 p, a, .btn, .my-link:hover{
-    color: #ecf2ff;
+    font-family: 'Montserrat', serif;
+    color: #ECF2FF;
     line-height: 1.75;
     text-decoration: none;
 }
 
 span{
-    color: #9085fd;
+    color: #9085FD;
 }
-
-.line, .profile, .about-me, .skills, .contact-me,
-.container, .content-img, .timeline, .fix{
-    margin: auto;
-}
-
 
 #first-section, #second-section, #third-section{
+    background-color: #131416;
     text-align: center;
-    padding: 0px 15px;
 }
 
-/*Navigation Bar*/
 .icon-img{
-    background-color: #fec1ae;
+    background-color: #FEC1AE;
     border-radius: 100%;
 }
 
-.icon-img:hover{
-    background-color: #ecf2ff;
+/*Navigation Bar*/
+.nav-link:hover, .icon-img:hover{
+    background-color: #ECF2FF;
 }
 
 .navbar-mysetup{
@@ -54,13 +58,12 @@ span{
 }
 
 .nav-link{
-    color: #ecf2ff;
+    color: #ECF2FF;
     font-size: 1.125em;
 }
 
 .nav-link:hover{
     color: #000000;
-    background-color: #ecf2ff;
     border-radius: 5px;
 }
 
@@ -70,7 +73,6 @@ span{
 
 #first-section{
     background-image: url("background-img.jpg");
-    background-color: #131416;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,31 +83,19 @@ span{
     background-color: #000000;
 }
 
-#third-section{
-    background-color: #131416;
-}
-
-.top-container{
-    padding: 10px;
-}
-
-/*Horizontal Line*/
-.line{
-    border-top: dotted #ddf7e3;
-    border-width: 6px;
-    width: 5%;
-    margin: 25px auto 10px;
+.short-bio{
+    padding: 12px;
 }
 
 /*Font Stylings*/
 .my-name{
     font-family: 'Tangerine';
     font-size: 5em;
-    margin:75px auto 0px;
+    margin: 75px auto 0px;
 }
 
 .sub-headings{
-    padding: 20px;
+    padding: 20px 12px;
 }
 
 /*Type Writer Animation*/
@@ -148,12 +138,20 @@ span{
 }
 
 .about-me{
-    padding: 0px 15px;
+    padding: 0px 12px;
     max-width: 800px;
 }
 
+/*Horizontal Line*/
+.line{
+    border-top: dotted #ddf7e3;
+    border-width: 6px;
+    width: 5%;
+    margin: 25px auto 10px;
+}
+
 .skills{
-    padding: 0px 15px;
+    padding: 0px 12px;
     max-width: 850px;
 }
 
@@ -163,7 +161,17 @@ span{
 
 .skill-text{
     text-align: justify;
-    padding-top: 10px;
+}
+
+/*Centering the Rows and Images*/
+.fix{
+    display: flex;
+    align-items: center;
+}
+
+.year-box, .time-box, .status-box, .skill-img-box, .img-box{
+    width: -moz-fit-content;
+    width: fit-content;
 }
 
 .contact-me{
@@ -177,51 +185,42 @@ span{
 
 .footer-part{
     padding: 20px;
-}
-
-.footer-link{
-    margin: 10px 20px;
+    max-width: 250px;
 }
 
 .btn {
-    background: #5d9c00;
+    background: #5D9C00;
 }
 
 .btn:hover {
-    background: #85b863;
+    background: #85B863;
 }
 
 /*The Path Page Specific Customizations*/
 /*Timeline Stylings*/
 .timeline, .fix{
     max-width: 1100px;
+    padding: 12px;
 }
 
 /*Create a Border Vertical Line*/
 .ruler, .so-on{
-    border-left: solid #ddf7e3 7px;
+    border-left: solid #B4E4FF 7px;
     position: relative;
     left: 10px;
 }
 
 /*Creating a Connector line between divs*/
 .connector{
-    border-top: solid #ddF7e3 7px;
+    border-top: solid #B4E4FF 7px;
     width: 20px;
 }
 
 /*Creating dots*/
 .so-on{
-    border-left: dotted #ddf7e3;
+    border-left: dotted #B4E4FF;
     border-width: 7px;
-    margin-top: 20px;
     height: 50px;
-}
-
-/*Center Connector Line*/
-.fix{
-    display: flex;
-    align-items: center;
 }
 
 /*Content Container*/
@@ -231,86 +230,57 @@ span{
     align-items: center;
 }
 
-/*Image Handling*/
-.img-box{
-    padding: 12px 18px;
-    display: flex;
-    align-items: center;
-    width: -moz-fit-content;
-    width: fit-content;
-}
-
+/*Image Formatting*/
 .content-img{
-    background-color: #b4e4ff;
+    margin: 7px 0px;
     border-radius: 100%;
+    background-color: #B4E4FF;
 }
 
-/*Content Containers*/
+/*Timeline Containers*/
 .year-box{
     background-image: linear-gradient(45deg, #9164ff, #8bfff4);
+    font-size: 1.5rem;
     border-radius: 0px 10px;
     position: relative;
     right: 35px;
-    width: -moz-fit-content;
-    width: fit-content;
     margin: 0px 15px;
+    padding: 10px 25px;
+}
+
+.time-box, .status-box{
+    font-size: 1.3125em;
+    border-radius: 6px;
+    padding: 7px 12px;
 }
 
 .time-box{
-    background-color: #fee7e7;
-    width: -moz-fit-content;
-    width: fit-content;
-    border-radius: 6px;
+    background-color: #FEE7E7;
 }
 
 .status-box{
-    background-color: #b4e4ff;
-    width: -moz-fit-content;
-    width: fit-content;
-    border-radius: 6px;
+    background-color: #03C988;
 }
 
-/*Text Formatting*/
-.year{
-    font-size: 1.5rem;
-    padding: 10px 30px;
-    color: black;
+.inactive{
+    background-color: #FFEBB4;
 }
 
-.time, .status{
-    color: #000000;
-    margin: 0px auto;
-    padding: 10px 0px;
-    font-family: 'Gabriela';
+/*Positioning*/
+.connector, .time-box, .status-box{
+    margin: 0px;
 }
 
 /*Media Queries*/
-@media (max-width: 1000px){
-    .skill-text{
-        text-align: center;
-    }
-}
-
 @media (max-width: 750px){
-    .img-box{
-        width: 100%;
-    }
-}
-
-@media (max-width: 550px){
-    h2{
+    h2, .year-box{
         font-size: 1.25rem;
     }
-    h3{
+    h3, .time-box, .status-box{
         font-size: 1.05rem;
     }
     p{
         font-size: 1rem;
-        text-align: justify;
-    }
-    .my-name{
-        font-size: 3.5rem;
-        margin:20px auto 0px;
     }
     .navbar-mysetup{
         padding: 20px 5%;
@@ -318,19 +288,41 @@ span{
     .nav-item{
         padding: 8px;
     }
-    .copy-right{
+    .nav-link{
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 575px){
+    .skill-img-box{
+        width: 100%;
+    }
+    .skill-text{
         text-align: center;
+    }
+}
+
+@media (max-width: 500px){
+    p{
+        text-align: justify;
+    }
+    .my-name{
+        font-size: 3.5rem;
+        margin:20px auto 0px;
     }
     .gear-img{
         width: 35%;
     }
-    .nav-link{
-        font-size: 0.95rem;
+    .img-box{
+        width: 100%;
     }
     .content-img{
         width: 100px;
     }
     .connector{
         width: 10px;
+    }
+    .copyright{
+        text-align: center;
     }
 }
