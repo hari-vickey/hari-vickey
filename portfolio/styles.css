@@ -38,7 +38,7 @@ span{
   color: #9085FD;
 }
 
-#first-section, #second-section, #third-section{
+#first-section, #second-section, #footer-section{
   background-color: #131416;
   text-align: center;
 }
@@ -72,7 +72,7 @@ span{
 }
 
 #first-section{
-  background-image: url("background-img.jpg");
+  background-image: url("images/background-img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
