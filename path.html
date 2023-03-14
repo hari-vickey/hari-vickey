@@ -32,16 +32,19 @@
 
   <section id="first-section">
       <!-- Creating a Navigation Bar -->
-      <nav class="navbar navbar-expand navbar-dark navbar-mysetup">
+    <div class="autohide">
+      <nav class="navbar navbar-expand navbar-dark navbar-pages">
           <a class="navbar-brand" href="index.html">
             <img class="icon-img"src="images/profile.png" alt="Home-Page" width="80">
           </a>
           <ul class="navbar-nav ms-auto">
             <!-- To Set it Active, Need to add some styling -->
             <li class="nav-item"><a class="nav-link" href="#second-section">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#third-section">End</i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#footer-section">End</i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#footer-section">Mail</i></a></li>
           </ul>
       </nav>
+    </div>
   </section>
 
   <section id="second-section">
@@ -63,7 +66,7 @@
               <img class="content-img" src="images/web-design.png" alt="">
             </div>
             <div class="col content">
-              <p>Finally, I started learning <span>Full stack Web Development</span> through <a class="my-link" href="https://www.udemy.com/">Udemy</a>. This website is my first step towards web development. More designs are coming soon.</p>
+              <p>Finally, I started learning <span>Full stack Web Development</span> through <a class="my-link" href="https://www.udemy.com/">Udemy</a>. This website is my first step towards web development. I have also created a mini <a class="my-link" href="https://hari-vickey.github.io/FSWD-Challenges/">Hand Cricket</a> game website. More designs are coming soon.</p>
             </div>
           </div>
           <!-- New Year -->
@@ -218,7 +221,7 @@
     </div>
   </section>
 
-  <section id="third-section">
+  <section id="footer-section">
     <div class="footer-part">
       <div class="row">
         <a class="col" aria-label="linked-in" href="https://www.linkedin.com/in/hari-vikinesh/"><i class="fa-brands fa-linkedin fa-2x icon"></i></a>
@@ -228,6 +231,9 @@
       <p class="copyright">© 2023, Hari Vikinesh.</p>
     </div>
   </section>
+
+  <!-- Adding JavaScript Files -->
+  <script src="functions.js"></script>
 </body>
 
 </html>

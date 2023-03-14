@@ -38,16 +38,18 @@
 
   <section id="first-section">
     <!-- Creating a Navigation Bar -->
-    <nav class="navbar navbar-expand navbar-dark navbar-mysetup">
-      <a class="navbar-brand active" href="#second-section">
-        <img class="icon-img" src="images/profile.png" alt="Home-Page" width="80">
-      </a>
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
-        <li class="nav-item"><a class="nav-link" href="path.html">Path</a></li>
-        <li class="nav-item"><a class="nav-link" href="#footer-section">Mail</a></li>
-      </ul>
-    </nav>
+    <div class="autohide">
+      <nav class="navbar navbar-expand navbar-dark navbar-mysetup">
+        <a class="navbar-brand active" href="#second-section">
+          <img class="icon-img" src="images/profile.png" alt="Home-Page" width="80">
+        </a>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#projects-section">Work</a></li>
+          <li class="nav-item"><a class="nav-link" href="path.html">Path</a></li>
+          <li class="nav-item"><a class="nav-link" href="#footer-section">Mail</a></li>
+        </ul>
+      </nav>
+    </div>
 
     <div class="short-bio">
       <h1 class="my-name">I'm Hari Vikinesh</h1>
@@ -94,6 +96,40 @@
       </div>
     </div>
     <div class="line"></div>
+  </section>
+
+  <!-- Not in use -->
+  <!-- <section id="projects-section">
+    <h2 class="sub-headings">Projects</h2>
+    <div id="projects-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h3>Soil Monitoring Bot</h3>
+          <p></p>
+          <span>e-Yantra, IIT Bombay</span>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h3>Vargi Bot</h3>
+          <p></p>
+          <span>e-Yantra, IIT Bombay</span>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h3>Autonomous Delivery Robots</h3>
+          <p></p>
+          <span>Grid3.0, Flipkart</span>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#projects-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#projects-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <div class="line"></div>
+  </section> -->
+
+  <section id ="contact-section">
     <div class="contact-me">
         <h2 class="sub-headings">Like my work</h2>
         <h3>Get in Touch.</h3>
@@ -112,6 +148,9 @@
       <p class="copyright">© 2023, Hari Vikinesh.</p>
     </div>
   </section>
+
+  <!-- Adding JavaScript Files -->
+  <script src="functions.js"></script>
 </body>
 
 </html>
