@@ -58,18 +58,10 @@ span{
   border-radius: 25px;
 }
 
-.navbar-mysetup, .navbar-pages{
+.navbar-mysetup{
   margin: 20px 15%;
   padding: 8px;
   border-radius: 50px;
-}
-
-.navbar-mysetup{
-  background-image: none;
-}
-
-.navbar-pages{
-  background-image: url("images/background-img.jpg");
 }
 
 .nav-link:hover, .icon-img:hover{
@@ -328,7 +320,7 @@ span{
 
 @media (max-width: 575px){
   .navbar-mysetup{
-    margin: 0px;
+    margin: 5px;
   }
   .nav-item{
     padding: 8px;

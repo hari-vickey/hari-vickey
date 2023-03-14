@@ -16,8 +16,7 @@ window.addEventListener('scroll', function() {
   // Check scroll Action
   if (prevScrollpos > currentScrollPos) {
     autoHide.style.top = "0";
-    // myNavbar.style.backgroundColor = "#131416";
-    myNavbar.style.backgroundImage = "url(images/background-img.jpg)";
+    myNavbar.style.backgroundColor = "#131416";
   } else {
     // Setting padding value of navbar for hiding
     paddingValue = "-" + window.getComputedStyle(navbarPadding, null).getPropertyValue('height');
@@ -26,7 +25,7 @@ window.addEventListener('scroll', function() {
 
   // changes Color for the Top section
   if(currentScrollPos < 200) {
-    myNavbar.style.backgroundImage = "none";
+    myNavbar.style.backgroundColor = "transparent";
   }
 
   // Updating Scroll Position
