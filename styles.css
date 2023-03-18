@@ -43,7 +43,7 @@ span{
   background-color: #131416;
 }
 
-.icon-img{
+.icon-img, .projects-img{
   background-color: #FEC1AE;
   border-radius: 100%;
 }
@@ -162,18 +162,28 @@ span{
   max-width: 850px;
 }
 
+/* Declare heights because of positioning of img element */
+#projects-carousel{
+  min-height: 325px;
+}
+
+.carousel-indicators{
+  position: absolute;
+  padding: 5px;
+  margin: 0px auto;
+}
+
+.projects-img{
+  width: 100px;
+  margin: 5px;
+}
+
 .row{
   padding: 10px 0px;
 }
 
 .skill-text{
   text-align: justify;
-}
-
-/*Carousel Customisation*/
-.carousel-item{
-  padding: 3px 10%;
-/*  min-height: 150px;*/
 }
 
 /*Centering the Rows and Images*/
@@ -221,7 +231,8 @@ span{
 
 .timeline-wrapper{
   background-color: #ECF2FF;
-  max-width: 295px;
+  /* max-width: 295px; */
+  max-width: 470px;
   height: 60px;
   border-radius: 50px;
   margin: 15px auto;
@@ -333,6 +344,23 @@ span{
   margin: 0px;
 }
 
+/* Scroll Bar*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #575e62;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ECF2FF;
+}
+
 /*Media Queries*/
 @media (max-width: 750px){
   h2, .year-box{
@@ -392,5 +420,11 @@ span{
   }
   .fix{
     margin: 0px;
+  }
+}
+
+@media (max-width: 410px) {
+  .timeline-wrapper{
+    width: 295px;
   }
 }

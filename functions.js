@@ -46,10 +46,12 @@ $(switchYear+"b").css({"border-bottom": "solid red 2px"});
 
 // On click show
 yearButton.on("click", function (){
-  $(switchYear).slideToggle();
-  $(switchYear+"b").css({"border-bottom": "none"});
-  // Update the year
-  switchYear = "."+this.innerHTML;
-  $(switchYear+"b").css({"border-bottom": "solid red 2px"});
-  $(switchYear).slideToggle();
+  if( switchYear !== ("."+this.innerHTML) ) {
+    $(switchYear).slideToggle();
+    $(switchYear+"b").css({"border-bottom": "none"});
+    // Update the year
+    switchYear = "."+this.innerHTML;
+    $(switchYear).slideToggle();
+    $(switchYear+"b").css({"border-bottom": "solid red 2px"});
+  }
 });
