@@ -175,9 +175,6 @@ span{
   padding: 3px 10%;
 /*  min-height: 150px;*/
 }
-.container-fluid{
-
-}
 
 /*Centering the Rows and Images*/
 .fix{
@@ -205,11 +202,11 @@ span{
 }
 
 .btn {
-  background: #5D9C00;
+  background: #3eb034;
 }
 
 .btn:hover {
-  background: #85B863;
+  background: #03C988;
 }
 
 /*The Path Page Specific Customizations*/
@@ -222,8 +219,45 @@ span{
   max-width: 1100px;
 }
 
-.timeline{
+.timeline-wrapper{
+  background-color: #ECF2FF;
+  max-width: 295px;
+  height: 60px;
+  border-radius: 50px;
+  margin: 15px auto;
+  overflow: hidden;
+}
+
+.year-bar{
+  margin: 0px 25px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.year-button{
+  background-color: transparent;
+  border: none;
+  /* font-family: 'Gabriela'; */
+  font-size: 18px;
+  color: #000000;
+  margin: 15px 15px 25px;
+  padding: 0px;
+  width: 50px;
+}
+
+.year-button:hover{
+  color: #14D40F;
+  background-color: transparent;
+}
+
+.timeline, .timeline1{
   padding: 0px 12px;
+}
+
+.timeline1{
+  max-width: 850px;
 }
 
 .fix{
@@ -276,13 +310,13 @@ span{
   padding: 10px 25px;
 }
 
-.time-box, .status-box{
+.time-box, .month-box, .status-box{
   font-size: 1.3125em;
   border-radius: 6px;
   padding: 7px 12px;
 }
 
-.time-box{
+.time-box, .month-box{
   background-color: #FEE7E7;
 }
 
@@ -304,7 +338,7 @@ span{
   h2, .year-box{
     font-size: 1.25rem;
   }
-  h3, .time-box, .status-box{
+  h3, .time-box, .status-box, .year-button{
     font-size: 1.05rem;
   }
   p{

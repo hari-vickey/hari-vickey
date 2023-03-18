@@ -1,9 +1,11 @@
-// JavaScript File to Control Navigation Bar
+// JavaScript File to Control Navigation Bar and TimeLine
 // Consant Declaration for HTML Elements
-const autoHide = document.querySelector(".autohide");
-const myNavbar = document.querySelector(".navbar-mysetup");
+
+// Navigation Bar Control
+const autoHide = $(".autohide");
+const myNavbar = $(".navbar-mysetup");
 // Declaring Variables
-var navbarPadding = document.querySelector(".autohide")
+var navbarPadding = $(".autohide")
 var prevScrollpos = window.pageYOffset;
 var paddingValue = 0;
 
@@ -15,19 +17,39 @@ window.addEventListener('scroll', function() {
 
   // Check scroll Action
   if (prevScrollpos > currentScrollPos) {
-    autoHide.style.top = "0";
-    myNavbar.style.backgroundColor = "#131416";
+    autoHide.css({"top": "0px"});
+    myNavbar.css("backgroundColor", "#131416");
   } else {
     // Setting padding value of navbar for hiding
-    paddingValue = "-" + window.getComputedStyle(navbarPadding, null).getPropertyValue('height');
-    autoHide.style.top = paddingValue;
+    paddingValue = "-" + autoHide.height()+"px";
+    autoHide.css({"top": paddingValue});
   }
 
   // changes Color for the Top section
   if(currentScrollPos < 200) {
-    myNavbar.style.backgroundColor = "transparent";
+    myNavbar.css("backgroundColor", "transparent");
   }
 
   // Updating Scroll Position
   prevScrollpos = currentScrollPos;
+});
+
+// Timeline Control
+const yearContent = $(".year");
+const yearButton = $(".year-button");
+var switchYear = ".2022";
+
+// Show the 2022 year
+yearContent.hide();
+$(switchYear).show();
+$(switchYear+"b").css({"border-bottom": "solid red 2px"});
+
+// On click show
+yearButton.on("click", function (){
+  $(switchYear).slideToggle();
+  $(switchYear+"b").css({"border-bottom": "none"});
+  // Update the year
+  switchYear = "."+this.innerHTML;
+  $(switchYear+"b").css({"border-bottom": "solid red 2px"});
+  $(switchYear).slideToggle();
 });
