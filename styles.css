@@ -1,7 +1,7 @@
 /*Common Style Properties*/
 body{
-  font-size: 1.125rem;
   background-color: #000000;
+  font-size: 1.125rem;
   text-align: center;
 }
 
@@ -10,8 +10,8 @@ img{
 }
 
 div{
-  margin: 0px auto;
   font-family: 'Gabriela';
+  margin: 0px auto;
   color: #000000;
 }
 
@@ -20,8 +20,8 @@ h1, h2, h3, a:hover, .my-link{
 }
 
 h2{
-  font-size: 2rem;
   font-family: 'Gabriela', serif;
+  font-size: 2rem;
 }
 
 h3{
@@ -30,9 +30,9 @@ h3{
 
 p, a, .btn, .my-link:hover{
   font-family: 'Montserrat', serif;
-  color: #ECF2FF;
-  line-height: 1.75;
   text-decoration: none;
+  line-height: 1.75;
+  color: #ECF2FF;
 }
 
 span{
@@ -50,18 +50,18 @@ span{
 
 /*Navigation Bar*/
 .autohide{
-  top: 0px;
-  width: 100%;
-  position: fixed;
   transition: top 0.5s;
-  z-index: 1;
   border-radius: 25px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0px;
 }
 
 .navbar-mysetup{
+  border-radius: 50px;
   margin: 20px 15%;
   padding: 8px;
-  border-radius: 50px;
 }
 
 .nav-link:hover, .icon-img:hover{
@@ -69,13 +69,13 @@ span{
 }
 
 .nav-link{
-  color: #ECF2FF;
   font-size: 1.125em;
+  color: #ECF2FF;
 }
 
 .nav-link:hover{
-  color: #000000;
   border-radius: 5px;
+  color: #000000;
 }
 
 .nav-item{
@@ -84,8 +84,8 @@ span{
 
 #first-section{
   background-image: url("images/background-img.jpg");
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: auto;
 }
@@ -96,9 +96,9 @@ span{
 
 /*Font Stylings*/
 .my-name{
+  margin: 75px auto 0px;
   font-family: 'Tangerine';
   font-size: 5em;
-  margin: 75px auto 0px;
 }
 
 .sub-headings{
@@ -108,7 +108,6 @@ span{
 /*Type Writer Animation*/
 .engineer{
   display: inline-block;
-  padding: 5px;
 }
 
 .profile{
@@ -116,9 +115,9 @@ span{
 }
 
 .typing-effect{
-  overflow: hidden;
-  white-space: nowrap;
   animation: typing 2s steps(150, end) forwards;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @keyframes typing {
@@ -152,9 +151,9 @@ span{
 /*Horizontal Line*/
 .line{
   border-top: dotted #ddf7e3;
+  margin: 25px auto 10px;
   border-width: 6px;
   width: 5%;
-  margin: 25px auto 10px;
 }
 
 #projects-carousel, .skills{
@@ -169,8 +168,8 @@ span{
 
 .carousel-indicators{
   position: absolute;
-  padding: 5px;
   margin: 0px auto;
+  z-index: 0;
 }
 
 .projects-img{
@@ -188,11 +187,11 @@ span{
 
 /*Centering the Rows and Images*/
 .fix{
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
-.year-box, .time-box, .status-box, .skill-img-box, .img-box{
+.time-box, .status-box, .skill-img-box, .img-box{
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -202,13 +201,13 @@ span{
   max-width: 525px;
 }
 
-.icon{
+.icon, .engineer, .carousel-indicators{
   padding: 5px;
 }
 
 .footer-part{
-  padding: 20px;
   max-width: 250px;
+  padding: 20px;
 }
 
 .btn {
@@ -219,81 +218,57 @@ span{
   background: #03C988;
 }
 
-/*The Path Page Specific Customizations*/
-.path{
-  padding-top: 180px;
+.container{
+  padding: 0px;
 }
 
 /*Timeline Stylings*/
 .timeline, .fix{
-  max-width: 1100px;
-}
-
-.timeline-wrapper{
-  background-color: #ECF2FF;
-  /* max-width: 295px; */
-  max-width: 470px;
-  height: 60px;
-  border-radius: 50px;
-  margin: 15px auto;
-  overflow: hidden;
-}
-
-.year-bar{
-  margin: 0px 25px;
-  overflow-y: hidden;
-  overflow-x: scroll;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-}
-
-.year-button{
-  background-color: transparent;
-  border: none;
-  /* font-family: 'Gabriela'; */
-  font-size: 18px;
-  color: #000000;
-  margin: 15px 15px 25px;
-  padding: 0px;
-  width: 50px;
-}
-
-.year-button:hover{
-  color: #14D40F;
-  background-color: transparent;
-}
-
-.timeline, .timeline1{
-  padding: 0px 12px;
-}
-
-.timeline1{
   max-width: 850px;
+}
+
+.timeline{
+  padding: 0px 12px;
 }
 
 .fix{
   margin: 12px 0px;
 }
 
-/*Create a Border Vertical Line*/
-.ruler, .so-on{
-  border-left: solid #B4E4FF 7px;
-  position: relative;
-  left: 10px;
+.timeline-wrapper{
+  background-color: #ECF2FF;
+  border-radius: 50px;
+  margin: 15px auto;
+  overflow: hidden;
+  max-width: 470px;
+  height: 60px;
+}
+
+.year-bar{
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin: 0px 25px;
+}
+
+.year-button{
+  background-color: transparent;
+  margin: 15px 15px 25px;
+  color: #000000;
+  font-size: 18px;
+  border: none;
+  padding: 0px;
+  width: 50px;
+}
+
+.year-button:hover{
+  color: #14D40F;
 }
 
 /*Creating a Connector line between divs*/
 .connector{
   border-top: solid #B4E4FF 7px;
   width: 20px;
-}
-
-/*Creating dots*/
-.so-on{
-  border-left: dotted #B4E4FF;
-  border-width: 7px;
-  margin-top: 15px;
-  height: 50px;
 }
 
 /*Content Container*/
@@ -311,23 +286,13 @@ span{
 }
 
 /*Timeline Containers*/
-.year-box{
-  background-image: linear-gradient(45deg, #9164ff, #8bfff4);
-  font-size: 1.5rem;
-  border-radius: 0px 10px;
-  position: relative;
-  right: 35px;
-  margin: 0px 15px;
-  padding: 10px 25px;
-}
-
-.time-box, .month-box, .status-box{
+.time-box, .status-box{
   font-size: 1.3125em;
   border-radius: 6px;
   padding: 7px 12px;
 }
 
-.time-box, .month-box{
+.time-box{
   background-color: #FEE7E7;
 }
 
@@ -339,12 +304,11 @@ span{
   background-color: #FFEBB4;
 }
 
-/*Positioning*/
 .connector, .time-box, .status-box{
   margin: 0px;
 }
 
-/* Scroll Bar*/
+/* Scroll Bar Customization*/
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -363,7 +327,7 @@ span{
 
 /*Media Queries*/
 @media (max-width: 750px){
-  h2, .year-box{
+  h2{
     font-size: 1.25rem;
   }
   h3, .time-box, .status-box, .year-button{
@@ -371,9 +335,6 @@ span{
   }
   p{
     font-size: 1rem;
-  }
-  .path{
-    padding-top: 130px;
   }
   .nav-link{
     font-size: 0.95rem;
@@ -411,6 +372,9 @@ span{
   }
   .content-img{
     width: 100px;
+  }
+  .content{
+    padding: 0px;
   }
   .connector{
     width: 10px;
