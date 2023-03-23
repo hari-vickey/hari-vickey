@@ -37,9 +37,9 @@ window.addEventListener('scroll', function() {
 // Timeline Control
 const yearContent = $(".year");
 const yearButton = $(".year-button");
-var switchYear = ".2022";
+var switchYear = ".2023";
 
-// Show the 2022 year
+// Show the 2023 year
 yearContent.hide();
 $(switchYear).show();
 $(switchYear+"b").css({"border-bottom": "solid red 2px"});
