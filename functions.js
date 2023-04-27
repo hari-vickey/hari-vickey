@@ -1,12 +1,12 @@
 // JavaScript File to Control Navigation Bar and TimeLine
-// Consant Declaration for HTML Elements
+// Constant Declaration for HTML Elements
 
 // Navigation Bar Control
 const autoHide = $(".autohide");
 const myNavbar = $(".navbar-mysetup");
 // Declaring Variables
 var navbarPadding = $(".autohide")
-var prevScrollpos = window.pageYOffset;
+var prevScrollPos = window.pageYOffset;
 var paddingValue = 0;
 
 // Scrolling Event Listener
@@ -16,7 +16,7 @@ window.addEventListener('scroll', function() {
   var currentScrollPos = window.pageYOffset;
 
   // Check scroll Action
-  if (prevScrollpos > currentScrollPos) {
+  if (prevScrollPos > currentScrollPos) {
     autoHide.css({"top": "0px"});
     myNavbar.css("backgroundColor", "#131416");
   } else {
@@ -31,7 +31,7 @@ window.addEventListener('scroll', function() {
   }
 
   // Updating Scroll Position
-  prevScrollpos = currentScrollPos;
+  prevScrollPos = currentScrollPos;
 });
 
 // Timeline Control
