@@ -5,7 +5,7 @@ I have completed my under graduation in the Department of Mechatronics Engineeri
 
 <img alt="programmer gif" width="400" height="250" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" align="right">
 
-- 🌱 I have worked as a student intern at e-Yantra, IIT Bombay.
+- 🌱 I am working at e-Yantra, IIT Bombay as a Project Staff.
 - :zap: My area of interest is in the field of Mobile Robotics and Automation.
 - 🔭 I am looking forward to working on autonomous vehicles.
 - 👯 I am open to collaborate with others to work on robotics projects.
