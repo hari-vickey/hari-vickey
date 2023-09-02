@@ -7,7 +7,7 @@ I have completed my under graduation in the Department of Mechatronics Engineeri
 
 - 🌱 I am working at e-Yantra, IIT Bombay as a Project Staff.
 - :zap: My area of interest is in the field of Mobile Robotics and Automation.
-- 🔭 I am looking forward to working on autonomous vehicles.
+- 🔭 I am looking forward to work on autonomous vehicles.
 - 👯 I am open to collaborate with others to work on robotics projects.
 - 🕸️ Visit my personal webpage [here](https://hari-vickey.github.io/hari-vickey/).
 
@@ -26,4 +26,5 @@ I have completed my under graduation in the Department of Mechatronics Engineeri
 </div>
 
 ### Git Status
-[![Hari's github stats](https://github-readme-stats.vercel.app/api?username=hari-vickey&count_private=true&show_icons=true&theme=radical&hide_rank=false&line_height=24)](https://github.com/anuraghazra/github-readme-stats) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hari-vickey&layout=compact&theme=vision-friendly-dark&langs_count=8&card_width=275)](https://github.com/anuraghazra/github-readme-stats)   
+[![Hari's github stats](https://github-readme-stats.vercel.app/api?username=hari-vickey&count_private=true&show_icons=true&theme=radical&hide_rank=false&line_height=24)](https://github.com/anuraghazra/github-readme-stats)[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hari-vickey&layout=compact&theme=vision-friendly-dark&langs_count=8&card_width=275)](https://github.com/anuraghazra/github-readme-stats)
+![Hari's GitHub Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=hari-vickey&theme=radical)
