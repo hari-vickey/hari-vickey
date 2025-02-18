@@ -6,7 +6,7 @@ I have completed my under graduation in the Department of Mechatronics Engineeri
 <img alt="programmer gif" width="400" height="250" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" align="right">
 
 - 🌱 I am working at e-Yantra, IIT Bombay as a Project Staff.
-- :zap: My area of interest is in the field of Mobile Robotics and Automation.
+- :zap: My area of interest is in the field of CPU Design, Mobile Robotics and Automation.
 - 🔭 I am looking forward to work on autonomous vehicles.
 - 👯 I am open to collaborate with others to work on robotics projects.
 - 🕸️ Visit my personal webpage [here](https://hari-vickey.github.io/hari-vickey/).
@@ -24,7 +24,3 @@ I have completed my under graduation in the Department of Mechatronics Engineeri
   <img src="https://blogs.autodesk.com/presse-center-deutschland/wp-content/uploads/sites/93/2016/08/Autodesk-logo-e1468255451527.png" title="CAD Modeling" alt="CAD modeling" width="40" height="40"/>&nbsp
   <img src="https://www.megaleechers.com/storage/SketchUp-Pro-Icon.png" title="SketchUp" alt="sketchup" width="40" height="40"/>
 </div>
-
-### Git Status
-[![Hari's github stats](https://github-readme-stats.vercel.app/api?username=hari-vickey&count_private=true&show_icons=true&theme=radical&hide_rank=false&line_height=24)](https://github.com/anuraghazra/github-readme-stats)[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hari-vickey&layout=compact&theme=vision-friendly-dark&langs_count=8&card_width=275)](https://github.com/anuraghazra/github-readme-stats)
-![Hari's GitHub Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=hari-vickey&theme=radical)
