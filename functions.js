@@ -1,57 +1,22 @@
-// JavaScript File to Control Navigation Bar and TimeLine
+// JavaScript File to Control Navigation Bar
 // Constant Declaration for HTML Elements
 
-// Navigation Bar Control
-const autoHide = $(".autohide");
-const myNavbar = $(".navbar-mysetup");
-// Declaring Variables
-var navbarPadding = $(".autohide")
-var prevScrollPos = window.pageYOffset;
-var paddingValue = 0;
+// Select elements
+const autoHide = document.querySelector(".autohide");
+const myNavbar = document.querySelector(".navbar-mysetup");
 
-// Scrolling Event Listener
-window.addEventListener('scroll', function() {
+let prevScrollPos = window.scrollY;
 
-  // Reads Scroll Value
-  var currentScrollPos = window.pageYOffset;
+// Scroll event listener
+window.addEventListener("scroll", () => {
+  const currentScrollPos = window.scrollY;
 
-  // Check scroll Action
   if (prevScrollPos > currentScrollPos) {
-    autoHide.css({"top": "0px"});
-    myNavbar.css("backgroundColor", "#131416");
+    autoHide.style.top = "0px";
+    myNavbar.style.backgroundColor = "#7886C7";
   } else {
-    // Setting padding value of navbar for hiding
-    paddingValue = "-" + autoHide.height()+"px";
-    autoHide.css({"top": paddingValue});
+    autoHide.style.top = `-${autoHide.offsetHeight}px`;
   }
 
-  // changes Color for the Top section
-  if(currentScrollPos < 200) {
-    myNavbar.css("backgroundColor", "transparent");
-  }
-
-  // Updating Scroll Position
   prevScrollPos = currentScrollPos;
-});
-
-// Timeline Control
-const yearContent = $(".year");
-const yearButton = $(".year-button");
-var switchYear = ".2023";
-
-// Show the 2023 year
-yearContent.hide();
-$(switchYear).show();
-$(switchYear+"b").css({"border-bottom": "solid red 2px"});
-
-// On click show
-yearButton.on("click", function (){
-  if( switchYear !== ("."+this.innerHTML) ) {
-    $(switchYear).slideToggle();
-    $(switchYear+"b").css({"border-bottom": "none"});
-    // Update the year
-    switchYear = "."+this.innerHTML;
-    $(switchYear).slideToggle();
-    $(switchYear+"b").css({"border-bottom": "solid red 2px"});
-  }
 });
