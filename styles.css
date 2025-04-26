@@ -219,6 +219,10 @@ span{
     padding: 5px;
 }
 
+.img-adjust{
+    max-width: 400px;
+}
+
 .footer-part{
     display: flex;
     align-items: center;
@@ -297,7 +301,7 @@ span{
     .nav-item{
         padding: 8px;
     }
-    .ht-adjust {
+    .img-adjust {
         height: 250px;
     }
 }
